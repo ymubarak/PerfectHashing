@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="711.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <VBox prefHeight="203.0" prefWidth="408.0" spacing="2.0">
+         <children>
+            <Text fill="#ffe100" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfect Hashing...." wrappingWidth="516.125">
+               <font>
+                  <Font name="Candara Bold" size="64.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="The beauty of the Uniform" translateX="85.0">
+               <font>
+                  <Font name="Candara Bold" size="27.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="70.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+         <StackPane.margin>
+            <Insets bottom="200.0" left="100.0" right="100.0" top="200.0" />
+         </StackPane.margin></VBox>
+   </children>
+</StackPane>

@@ -1,0 +1,45 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.Button {
+	 -fx-background-color: rgb(0.0,0.0,0.0,0.0);
+	 -fx-background-radius : 0.0;
+}
+
+.Button:hover{
+	-fx-background-color: rgb(0.0,0.0,0.0,0.5);
+}
+
+.sideButton {
+	 -fx-background-color: white;
+	 -fx-text-fill: orange;
+	 -fx-background-radius : 0.0;
+	 -fx-border-color: orange;
+}
+
+.sideButton:hover{
+	 -fx-background-color: orange;
+	 -fx-text-fill: white;
+}
+
+.sidePanel{
+	-fx-border-style: hidden hidden hidden solid;
+	 -fx-border-color: orange;
+}
+.chart-title {
+  -fx-text-fill: orange;
+  -fx-font-size: 1.6em;
+}
+
+.axis-label {
+  -fx-text-fill: #ab610a;
+  -fx-font-size: 1.2em;
+}
+
+.boxButton{
+	-fx-background-color: grey;
+	-fx-background-radius: 10;
+}
+
+.boxButton:hover{
+	-fx-background-color: black;
+}
